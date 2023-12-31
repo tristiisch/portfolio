@@ -1,0 +1,117 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	padding: 0;
+	background-color: #f7f7f7;
+	/* Light gray background */
+	color: #333333;
+}
+
+header,
+footer {
+	text-align: center;
+	padding: 20px;
+	color: #ffffff;
+}
+
+header {
+	background-color: #3498db;
+	/* Flat blue header */
+}
+
+footer {
+	background-color: #3498db;
+	/* Flat blue footer */
+}
+
+.page {
+	margin: 0 auto;
+}
+
+.content {
+	background-color: #ecf0f1;
+	/* Light blue-gray background for content section */
+	color: #333333;
+	border: 1px solid #ddd;
+	/* Subtle border between content sections */
+	padding: 10px;
+}
+
+.content h2 {
+	margin-top: 0;
+	/* Remove default margin for consistency */
+}
+
+.content ul {
+	padding: 0;
+	list-style: none;
+}
+
+.content li {
+	margin-bottom: 10px;
+	cursor: pointer;
+	border: 1px solid #ddd;
+	padding: 10px;
+	background-color: #ffffff;
+	/* White background for timeline items */
+}
+
+.menu {
+	background-color: #3498db;
+	/* Flat blue menu background, matching the header/footer */
+	color: #ffffff;
+	padding: 10px;
+}
+
+.menu h2 {
+	color: #ffffff;
+	/* White text for menu heading */
+}
+
+.menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+.menu li {
+	display: inline;
+	list-style: none;
+	cursor: pointer;
+	background-color: #333333;
+	/* Dark gray background for menu items */
+	float: left;
+}
+
+.menu span {
+	display: block;
+	color: #ffffff;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.menu li span:hover {
+	background-color: #1a1a1a;
+	/* Darker gray on hover for menu items */
+}
+
+.menu span.active {
+	background-color: #04AA6D;
+}
+
+.menu li.last {
+	float: right;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.second-color {
+	color: #555555;
+	/* Slightly darker gray for secondary text */
+}
