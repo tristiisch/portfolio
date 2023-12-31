@@ -11,8 +11,15 @@ interface PageProps {
 }
 
 const AppRoutes: React.FC<PageProps> = ({ experiences }) => {
+
+	var basename = undefined;
+	const isGitHubPages = window.location.hostname.endsWith("github.io");
+	if (isGitHubPages) {
+		basename = process.env.PUBLIC_URL + "/"
+	}
+
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename={basename}>
 			<Routes>
 				<Route path="/" element={<MainPage />} />
 				<Route path="/experience" element={<ExperiencePage experiences={experiences} />} />
