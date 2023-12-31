@@ -11,7 +11,7 @@ interface ProjectTimelineProps {
 
 const ProjectTimeline: React.FC<ProjectTimelineProps> = ({ projects }) => {
 	return (
-		<section className="content project-timeline">
+		<section className="project-timeline">
 			<h2>Projects</h2>
 			<ul>
 				{projects.map((project, index) => (

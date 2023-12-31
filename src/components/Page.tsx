@@ -15,8 +15,10 @@ const Page: React.FC<PageProps> = ({ children }) => {
 	return (
 		<>
 			<Header />
-			<div className='page'>
-				{children}
+			<div className="page">
+				<main className="content">
+					{children}
+				</main>
 				<Menu />
 			</div>
 			<Footer />

@@ -24,7 +24,7 @@ const Menu: React.FC = () => {
 	};
 
 	return (
-		<section className="menu">
+		<nav className="navbar">
 			<ul>
 				{pages.map((page, index) => (
 					<li key={index} onClick={() => handleMenuClick(page.url)}>
@@ -32,7 +32,7 @@ const Menu: React.FC = () => {
 					</li>
 				))}
 			</ul>
-		</section>
+		</nav>
 	)
 };
 

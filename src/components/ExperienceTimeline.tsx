@@ -18,7 +18,7 @@ const Timeline: React.FC<TimelineProps> = ({ experiences }) => {
 	};
 
 	return (
-		<section className="content timeline">
+		<section className="timeline">
 			<h2>Professional Timeline</h2>
 			<ul>
 				{experiences.map((experience, index) => (
