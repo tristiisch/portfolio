@@ -1,6 +1,8 @@
-# Portfolio
+# 🚧 Portfolio in Progress
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio page, crafted using React! This platform serves as a comprehensive journey through my academic and professional endeavors, offering a sneak peek into my skills through the site's dynamic functionalities.
+
+**Please note that the site is currently undergoing construction, and the data presented here are temporary placeholders designed to enhance the site's appearance during its development phase. Stay tuned for the unveiling of my genuine accomplishments and skills as this project unfolds!**
 
 ## React Tools
 
